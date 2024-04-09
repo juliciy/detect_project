@@ -1,0 +1,42 @@
+#
+#
+
+face_scope/
+│
+├── datasets/
+│   ├── train/                    # 训练数据集目录
+│   └── test/                     # 测试数据集目录
+│
+├── models/
+│   ├── face_detection/           # 存放人脸检测模型的目录
+│   └── face_recognition/         # 存放人脸识别模型的目录
+│
+├── src/
+│   ├── face_detection/
+│   │   ├── static/                       # 存放静态文件
+│   │   │   └── img_1.jpg
+│   │   ├── function_library/             # 存放功能函数文件
+│   │   │   ├── function_library_one/     # 存放功能函数文件的分组
+│   │   │   │   └── test_one_1.py
+│   │   │   ├── test_1.py
+│   │   │   └── test_2.py
+│   │   ├── detector.py                   # 人脸检测脚本
+│   │   └── utils.py                      # 人脸检测工具函数
+│   │
+│   ├── face_recognition/
+│   │   ├── recognizer.py               # 人脸识别脚本
+│   │   └── utils.py                   # 人脸识别工具函数
+│   │
+│   └── stream/
+│       └── video_capture.py      # 视频流捕获和处理的代码文件
+│   └── main.py                    # 主程序入口
+│
+├── database/
+│   ├── db_schema.sql              # 数据库架构定义文件
+│   └── crud_operations.py         # 数据库CRUD操作脚本
+│
+├── notebooks/                     # Jupyter笔记本目录
+├── docs/                          # 文档目录
+├── tests/                         # 测试代码目录
+├── requirements.txt               # 项目依赖列表
+└── README.md                      # 项目README文件

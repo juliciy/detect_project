@@ -1,0 +1,39 @@
+face_scope/
+│
+├── datasets/
+│   ├── train/
+│   └── test/
+│
+├── models/
+│   ├── face_detection/
+│   └── face_recognition/
+│
+├── src/
+│   ├── face_detection/
+│   │   ├── static/
+│   │   │   └── img_1.jpg
+│   │   ├── function_library/
+│   │   │   ├── function_library_one/
+│   │   │   │   └── test_one_1.py
+│   │   │   ├── test_1.py
+│   │   │   └── test_2.py
+│   │   ├── detector.py
+│   │   └── utils.py
+│   │
+│   ├── face_recognition/
+│   │   ├── recognizer.py
+│   │   └── utils.py
+│   │
+│   └── stream/
+│       └── video_capture.py
+│   └── main.py
+│
+├── database/
+│   ├── db_schema.sql
+│   └── crud_operations.py
+│
+├── notebooks/
+├── docs/
+├── tests/
+├── requirements.txt
+└── README.md
